@@ -1,4 +1,4 @@
-﻿using Heirloom.Terminal;
+﻿using Tetris.Terminal;
 
 namespace Tetris
 {

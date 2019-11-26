@@ -39,7 +39,14 @@ namespace Tetris
             y = Y;
         }
 
-        public static bool operator ==(IntVec2 left, IntVec2 right) => left.Equals(right);
-        public static bool operator !=(IntVec2 left, IntVec2 right) => !(left == right);
+        public static bool operator ==(IntVec2 left, IntVec2 right)
+        {
+            return left.Equals(right);
+        }
+
+        public static bool operator !=(IntVec2 left, IntVec2 right)
+        {
+            return !(left == right);
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Heirloom.Terminal
+namespace Tetris.Terminal
 {
     public sealed class BorderKind
     {

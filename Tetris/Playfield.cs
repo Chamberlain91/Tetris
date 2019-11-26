@@ -8,7 +8,7 @@ namespace Tetris
     /// </summary>
     public class Playfield
     {
-        private Grid<Block> _this;
+        private readonly Grid<Block> _this;
 
         public int Width => _this.Width;
 

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace Heirloom.Terminal
+namespace Tetris.Terminal
 {
     public class ScreenBuffer
     {
